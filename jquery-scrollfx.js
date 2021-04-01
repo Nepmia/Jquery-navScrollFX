@@ -1,3 +1,5 @@
+
+
 var saved_scroll = 0; // Keep user scroll to compare it later
 $(document).ready(function() {
     $(window).scroll(function() { // Exec when user scoll
@@ -27,3 +29,11 @@ $(document).ready(function() {
         }
     });
 });
+
+function toggleNavbar(status){
+    if ( status == "on"){
+      $(".navbar").css("transform", "translateY(0px)");
+    } else {
+      $(".navbar").css("transform", "translateY(-" + navbar_height + ")");
+    } 
+  }
