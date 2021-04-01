@@ -1,6 +1,8 @@
+navbar_height = 50 // Your navbar height in PX (just don't type px right...)
 
 
 var saved_scroll = 0; // Keep user scroll to compare it later
+
 $(document).ready(function() {
     $(window).scroll(function() { // Exec when user scoll
           var new_scroll = $(window).scrollTop(); // Distance user scrolled from the top of the page
@@ -36,4 +38,4 @@ function toggleNavbar(status){
     } else {
       $(".navbar").css("transform", "translateY(-" + navbar_height + ")");
     } 
-  }
+}
