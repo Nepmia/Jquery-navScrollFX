@@ -3,9 +3,9 @@
 
 ## Usage
 
-Simply import it on your project, per default, the navbar height is 50px so please edit the `navbar_height` variable to adjust it to your navbar. 
+Simply import it on your project, per default, the navbar height is 50px so please edit the `navbar_height` variable to adjust it to your navbar's height. 
 
-If you need to lock the navbar and not retract you can do it by simple adding a class you can set a class name in `navbar_lockclass` which will be added when needed, this class is here so you can give it to your navbar to lock it.
+If you need to lock the navbar from retracting you can do it by simply adding a class to it. This class can be set in `navbar_lockclass`.
 
 The script can also make the navbar togglable by hovering an element on your page, if you wish to use that please give its class / id name in `navbar_hovertrigger` like `#elt` or `.elt`.
 
