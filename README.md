@@ -1,5 +1,5 @@
 # N4 ScrollFX
- A simple jquery plugin to retract or show your navbar when scrolling
+This simple jQuery plugin is a part of N4-Framework modules. It can be used to retract / expand / lock a navbar depending on user actions and scroll.
 
 ## Usage
 
