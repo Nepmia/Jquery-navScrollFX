@@ -1,6 +1,8 @@
 # N4 ScrollFX
 This simple jQuery plugin is a part of N4-Framework modules. It can be used to retract / expand / lock a navbar depending on user actions and scroll.
 
+N4 Framework using this repo: https://github.com/Nepmia/N4-Framework
+
 ## Usage
 
 Simply import it on your project, per default, the navbar height is 50px so please edit the `navbar_height` variable to adjust it to your navbar's height. 
