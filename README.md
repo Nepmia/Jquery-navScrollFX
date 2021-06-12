@@ -1,4 +1,4 @@
-# Jquery-navScrollFX
+# N4 ScrollFX
  A simple jquery plugin to retract or show your navbar when scrolling
 
 ## Usage
@@ -16,9 +16,7 @@ Obviously the script target per default a class called `navbar` but if you wish 
 
 ## More specs about parameters
 
-`navbar_height` must be an INT
-
-`navbar_lockclass` must be a str, it can only be a str and will be a class, it cannot be changed to id by adding # and it doesn't need a . before the classname
-
-`navbar_hoverTrigger` and `navbar_target` must be a str, can be a class or an id using the proper selector (# or .)
+* `navbar_height` must be an INT
+* `navbar_lockclass` must be a str, it can only be a str and will be a class, it cannot be changed to id by adding `#` and it doesn't need a `.` before the classname
+* `navbar_hoverTrigger` and `navbar_target` must be a str, can be a class or an id using the proper selector (`#` or `.`)
 
