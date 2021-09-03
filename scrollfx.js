@@ -1,4 +1,4 @@
-navbar_height = 50 // Your navbar height in PX (just don't type px right...)
+navbar_height = "50px" // Your navbar height, you can use any css unit 
 mavbar_lockClass = "toggled" // Lock navbar with this class
 navbar_hoverTrigger = ".navbar" // Select wich element on your page can trigger the navbar by hover, it needs to be a .class or #id
 navbar_target = ".navbar" // Your navbar .class or #id
